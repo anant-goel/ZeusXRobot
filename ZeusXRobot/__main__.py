@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──『[GOD OF THUNDER](https://telegra.ph/file/4c33a90f7df190fd81763.jpg)』──
+──『[GOD OF THUNDER](https://telegra.ph/file/122c6f9823106b704da12.png)』──
 
 *Hello User!!*
 𝐇𝐞𝐲 𝐈'𝐦 [๖ۣۜZΞUS༻](https://en.m.wikipedia.org/wiki/Zeus),👋
@@ -100,13 +100,13 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="🤖 Stats", callback_data="zeus_info"),
-                       InlineKeyboardButton(text="📊 Network", url="t.me/PegasusXteam"),
-                       InlineKeyboardButton(text="🔔 Logs", url="t.me/pegasusLogs"),
+                       InlineKeyboardButton(text="📊 Network", url="t.me/PcGamesAllForFree"),
+                       InlineKeyboardButton(text="🔔 Logs", url="t.me/PcGamesAllForFree"),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="👫 Freedom",
-                             url=f"https://t.me/UnitedSupport"),
+                             url=f"https://t.me/fantasticyash"),
                        InlineKeyboardButton(
                              text="⚡ ZeusUpdates",
                              url=f"https://t.me/{UPDATES_CHANNEL}"),
@@ -125,7 +125,7 @@ Helpful commands:
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
 If you want to report bugs or have any questions on how to use me then feel free to reach out: @ZeusSupportChat.
-All commands can be used with the following: *(/),(!),(?),(.),(~)*[!](https://telegra.ph/file/648aca75adfb9533a2161.jpg)
+All commands can be used with the following: *(/),(!),(?),(.),(~)*[!](https://telegra.ph/file/122c6f9823106b704da12.png)
 List of all the Modules:
 """.format(
     dispatcher.bot.first_name,
@@ -133,8 +133,8 @@ List of all the Modules:
 )
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """t.me/unitedsupport"""
-HELP_IMG= "https://telegra.ph/file/5f296f959250d7cd88b09.jpg"
+DONATE_STRING = """t.me/PcGamesAllForFree"""
+HELP_IMG= "https://telegra.ph/file/122c6f9823106b704da12.png"
 
 
 IMPORTED = {}
@@ -336,7 +336,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*Powered By @PegasusXteam*\n *Module Name:*`{}`\n".format(
+                "*Powered By @PcGamesAllForFree*\n *Module Name:*`{}`\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
