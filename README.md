@@ -36,6 +36,8 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - FORK ON DEPLOY
 
    [![Deploy To Railway](https://railway.app/button.svg)](https://railway.app)
+   
+   [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)   
 
 
 ## `SQLALCHEMY_DATABASE_URI` | ᴍᴏsᴛ ᴜsᴇ ᴏʟᴅ `ᴅʙ_ᴜʀʟ`
