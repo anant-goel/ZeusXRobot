@@ -16,7 +16,6 @@ zalgo-text
 geopy
 psutil
 jikanpy
-speedtest-cli
 coffeehouse
 regex
 bleach
